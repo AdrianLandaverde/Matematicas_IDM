@@ -3,6 +3,7 @@ disp("¿Qué deseas calcular?")
 disp("1. Gradiente")
 disp("2. Ecuación Plano Tangente")
 disp("3. Conversión a coordenadas Polares")
+disp("4. Derivadas")
 disp(" ")
 opcion= input("Ingrese el número de la opción: ");
 switch(opcion)
@@ -12,6 +13,8 @@ switch(opcion)
         PlanoTangente();
     case 3
         CoordenadasPolares();
+    case 4
+        Derivada();
     otherwise
         disp("Opción Inválida");
 end
