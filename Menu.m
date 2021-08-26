@@ -4,9 +4,10 @@ disp("1. Gradiente")
 disp("2. Ecuación Plano Tangente")
 disp("3. Conversión a coordenadas Polares")
 disp("4. Conversión a coordenadas Cilíndricas")
-disp("5. Derivadas")
-disp("6. Integrales")
-disp("7. Operaciones con Vectores")
+disp("5. Conversión a coordenadas Esféricas")
+disp("6. Derivadas")
+disp("7. Integrales")
+disp("8. Operaciones con Vectores")
 disp(" ")
 opcion= input("Ingrese el número de la opción: ");
 switch(opcion)
@@ -19,10 +20,12 @@ switch(opcion)
     case 4
         CoordenadasCilindricas();
     case 5
-        Derivada();
+        CoordenadasEsfericas();
     case 6
-        Integral();
+        Derivada();
     case 7
+        Integral();
+    case 8
         Vectores();
     otherwise
         disp("Opción Inválida");
