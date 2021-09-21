@@ -124,8 +124,9 @@ function IntegralDoble()
             disp("La ecuación en coordenadas polares es: " + string(ecuacion))
             disp(" ")
         end
-        
-        syms t theta;
+       
+        syms r theta;
+        ecuacion=ecuacion*r;
         disp("PRIMERA INTEGRAL")
         var= input("¿Primera variable de integración? (r/theta): ",'s');
         var= str2sym(var);

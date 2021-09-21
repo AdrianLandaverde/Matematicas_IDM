@@ -12,6 +12,7 @@ disp("9.  Vectores Unitario")
 disp("10. Elemento de Volumen")
 disp("11. Divergencia")
 disp("12. Rotacional")
+disp("13. Teorema de Green")
 disp(" ")
 opcion= input("Ingrese el número de la opción: ");
 switch(opcion)
@@ -39,6 +40,8 @@ switch(opcion)
         Divergencia();
     case 12
         Rotacional();
+    case 13
+        TeoremaDeGreen();
     otherwise
         disp("Opción Inválida");
 end
