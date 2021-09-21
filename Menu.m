@@ -8,12 +8,13 @@ disp("5.  Conversión a coordenadas Esféricas")
 disp("6.  Derivadas")
 disp("7.  Integrales")
 disp("8.  Operaciones con Vectores")
-disp("9.  Vectores Unitario")
+disp("9.  Vectores Unitario y Factor de Forma")
 disp("10. Elemento de Volumen")
 disp("11. Divergencia")
 disp("12. Rotacional")
 disp("13. Teorema de Green")
 disp("14. Teorema de Gauss")
+disp("15. Teorema de Stokes")
 disp(" ")
 opcion= input("Ingrese el número de la opción: ");
 switch(opcion)
@@ -45,6 +46,8 @@ switch(opcion)
         TeoremaDeGreen();
     case 14
         TeoremaDeGauss();
+    case 15
+        TeoremaDeStokes();
     otherwise
         disp("Opción Inválida");
 end
