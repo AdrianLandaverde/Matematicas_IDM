@@ -25,7 +25,7 @@ function Vectores()
             Norma1Vector();
             break
         elseif(opcion==5)
-            Norma1izarVector();
+            NormalizarVector();
             break
         elseif(opcion==6)
             GramSchmidt();
@@ -106,7 +106,7 @@ function Norma1Vector()
     disp("Norma= " + string(sqrt(norma)))
 end
 
-function Norma1izarVector()
+function NormalizarVector()
     vecA= input("Ingrese el  vector de la forma [a b c ...]: ");
     [m,n]= size(vecA);
     disp("Vector Unitario= (u)/(||u||)")
@@ -211,7 +211,7 @@ function GramSchmidt()
         disp("Base Ortogonal= {u1, u2, u3}");
         u1
         u2
-        u3
-        
+        u3   
     end
 end
+
