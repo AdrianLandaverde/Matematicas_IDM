@@ -19,6 +19,7 @@ function TeoremaDeGreen()
     disp("¿Cómo desea resolver esta integral?")
     disp("1. Coordenadas Rectangulares")
     disp("2. Coordenadas Polares")
+    disp("3. No resolver")
     disp(" ")
     opcion= input("Ingrese el número de su opción: ");
     if(opcion==1)
