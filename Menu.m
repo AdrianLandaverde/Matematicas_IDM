@@ -15,6 +15,7 @@ disp("12. Rotacional")
 disp("13. Teorema de Green")
 disp("14. Teorema de Gauss")
 disp("15. Teorema de Stokes")
+disp("16. Números Complejos")
 disp(" ")
 opcion= input("Ingrese el número de la opción: ");
 switch(opcion)
@@ -48,6 +49,8 @@ switch(opcion)
         TeoremaDeGauss();
     case 15
         TeoremaDeStokes();
+    case 16
+        NumerosComplejos();
     otherwise
         disp("Opción Inválida");
 end
