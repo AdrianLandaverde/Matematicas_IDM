@@ -78,3 +78,7 @@ No hay que modificar nada del código, este automáticamente le pedirá al usuar
      - Operaciones
      - Módulo
      - Raíces
+17. Ecuaciones Diferenciales Separables
+18. Ecuaciones Diferenciales Homogéneas de Orden Superior
+19. Ecuaciones Diferenciales No Homogénes de Segundo Orden
+20. Método de Euler

@@ -16,6 +16,10 @@ disp("13. Teorema de Green")
 disp("14. Teorema de Gauss")
 disp("15. Teorema de Stokes")
 disp("16. Números Complejos")
+disp("17. Ecuaciones Diferenciales Separables")
+disp("18. Ecuaciones Diferenciales Homogéneas de Orden Superior")
+disp("19. Ecuaciones Diferenciales No Homogéneas de Segundo Orden")
+disp("20. Método de Euler")
 disp(" ")
 opcion= input("Ingrese el número de la opción: ");
 switch(opcion)
@@ -51,6 +55,14 @@ switch(opcion)
         TeoremaDeStokes();
     case 16
         NumerosComplejos();
+    case 17
+        EcuDifSeparables();
+    case 18
+        EcDifHomoOrdSup();
+    case 19
+        EcDifNoHomoOrd2();
+    case 20
+        MetodoDeEuler();
     otherwise
         disp("Opción Inválida");
 end
