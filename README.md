@@ -79,6 +79,11 @@ No hay que modificar nada del código, este automáticamente le pedirá al usuar
      - Módulo
      - Raíces
 17. Ecuaciones Diferenciales Separables
-18. Ecuaciones Diferenciales Homogéneas de Orden Superior
-19. Ecuaciones Diferenciales No Homogénes de Segundo Orden
-20. Método de Euler
+18. Ecuaciones Diferenciales por Factor Integrante
+19. Ecuaciones Diferenciales Homogéneas de Orden Superior
+20. Ecuaciones Diferenciales No Homogénes de Segundo Orden
+21. Método de Euler
+22. Ecuaciones Diferenciales por Variación de Parámetros
+23. Ecuaciones Diferenciales de Cauchy-Euler
+24. Ecuaciones Diferenciales por Variación de Parámetros + Cauchy Euler
+25. Ecuaciones DIferenciales por Reducción de Orden

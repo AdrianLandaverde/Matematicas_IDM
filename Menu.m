@@ -17,9 +17,14 @@ disp("14. Teorema de Gauss")
 disp("15. Teorema de Stokes")
 disp("16. Números Complejos")
 disp("17. Ecuaciones Diferenciales Separables")
-disp("18. Ecuaciones Diferenciales Homogéneas de Orden Superior")
-disp("19. Ecuaciones Diferenciales No Homogéneas de Segundo Orden")
-disp("20. Método de Euler")
+disp("18. Ecuaciones Diferenciales por Factor Integrantes")
+disp("19. Ecuaciones Diferenciales Homogéneas de Orden Superior")
+disp("20. Ecuaciones Diferenciales No Homogéneas de Segundo Orden")
+disp("21. Método de Euler")
+disp("22. Ecuaciones Difereciales por Variación de Parámetros")
+disp("23. Ecuaciones Diferenciales de Cauchy Euler")
+disp("24. Ecuaciones Diferenciales por Variación de Parámetros + Cauchy Euler")
+disp("25. Ecuaciones Diferenciales por Reducción de Orden")
 disp(" ")
 opcion= input("Ingrese el número de la opción: ");
 switch(opcion)
@@ -58,11 +63,21 @@ switch(opcion)
     case 17
         EcuDifSeparables();
     case 18
-        EcDifHomoOrdSup();
+        EcDifFactIntegrante();
     case 19
-        EcDifNoHomoOrd2();
+        EcDifHomoOrdSup();
     case 20
+        EcDifNoHomoOrd2();
+    case 21
         MetodoDeEuler();
+    case 22
+        EcDifVariacionParametros();
+    case 23
+        EcDifCauchyEuler();
+    case 24
+        EcDifVariacionParametros();
+    case 25
+        EcDifReducOrden();
     otherwise
         disp("Opción Inválida");
 end

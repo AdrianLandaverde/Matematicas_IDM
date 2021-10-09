@@ -21,4 +21,6 @@ function EcuDifSeparables()
     solucionSimp= solve(ladoy==ladox,y);
     disp(" ")
     disp("Solución Simplificada: y= " + string(solucionSimp))
+    solucionSimp= subs(solucionSimp,exp(C),C);
+    disp("Solución Simplificada: z= " + string(solucionSimp))
 end
