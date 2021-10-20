@@ -75,5 +75,6 @@ function EcDifVarParCauchyEuler()
     disp("yp= " + string(y1) +" + " + string(y2))
     disp(" ");
     disp("y= " + string(y) + " + " + string(yp))
-    
+    ys= simplify(yp+y);
+    disp("y= "+string(ys))
 end

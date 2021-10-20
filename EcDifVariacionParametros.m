@@ -80,14 +80,16 @@ function EcDifVariacionParametros()
     disp("u1= - Integral de ("+ string(y2)+"*"+string(fx)+")/"+string(W));
     disp("u1= - Integral de " + string(u1));
     u1=-int(u1,x);
+    u1=expand(u1);
     disp("u1= " + string(u1));
     disp(" ")
     
     u2= (y1*fx)/W;
-    disp("u1= Integral de (y1*f(x))/W")
-    disp("u1= Integral de ("+ string(y1)+"*"+string(fx)+")/"+string(W));
-    disp("u1= Integral de " + string(u2));
+    disp("u2= Integral de (y1*f(x))/W")
+    disp("u2= Integral de ("+ string(y1)+"*"+string(fx)+")/"+string(W));
+    disp("u2= Integral de " + string(u2));
     u2=int(u2,x);
+    u2= expand(u2);
     disp("u2= " + string(u2));
     disp(" ")
     disp("yp= u1*y1 + u2*y2")

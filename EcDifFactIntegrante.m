@@ -15,6 +15,7 @@ function EcDifFactIntegrante
     ux=int(coffP,x);
     disp("u(x)= e^("+string(ux)+ ")")
     ux=exp(ux);
+    ux=simplify(ux);
     disp("u(x)= " +string(ux))
     disp(" ")
     disp(string(ux)+ "*((dy/dx) + " + string(coffP) + "*y) = (" + string(ux)+")*("+string(coffQ)+")")

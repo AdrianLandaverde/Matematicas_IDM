@@ -75,7 +75,7 @@ switch(opcion)
     case 23
         EcDifCauchyEuler();
     case 24
-        EcDifVariacionParametros();
+        EcDifVarParCauchyEuler();
     case 25
         EcDifReducOrden();
     otherwise

@@ -5,6 +5,7 @@ function EcDifCauchyEuler()
     disp(" ")
     disp("y= x^r  ;  y1= r*x^(r-1)  ;  y2= r*(r-1)*x^(r-2)")
     funcion= subs(funcion,[y, y1, y2], [x^r, r*x^(r-1), r*(r-1)*x^(r-2)]);
+    disp(funcion)
     factores= factor(funcion);
     if(length(factores)==3)
     disp("("+string(factores(1))+")*("+string(factores(2))+")*("+string(factores(3))+") = 0")
